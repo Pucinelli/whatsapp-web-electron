@@ -17,8 +17,9 @@ cd ~
 git clone https://github.com/Pucinelli/whatsapp-web-electron.git
 
 # (optional) put it on your /usr/bin/ dir or another directory in your $PATH variable
-echo "electron ${PWD}/whatsapp-web-electron/main" > /usr/bin/whatsapp-web-electron
-sudo chmod 755 /usr/bin/whatsapp-web-electron
+# if any of these fail, enter as `sudo su`
+echo "electron ~/whatsapp-web-electron/main" > /usr/bin/whatsapp-web-electron
+chmod 755 /usr/bin/whatsapp-web-electron
 ```
 
 ## Usage
